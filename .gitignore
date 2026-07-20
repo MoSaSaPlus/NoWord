@@ -1,0 +1,51 @@
+# 依赖目录
+node_modules/
+.pnpm-store/
+
+# 构建及缓存
+dist/
+build/
+.vite/
+.cache/
+*.tsbuildinfo
+
+# 测试产物
+coverage/
+playwright-report/
+test-results/
+
+# 环境变量和密钥
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# 日志和运行时文件
+logs/
+*.log
+*.pid
+*.pid.lock
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 本地数据库和生成数据
+*.sqlite
+*.sqlite3
+*.db
+backups/
+exports/
+uploads/
+
+# IDE 本地配置
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+Desktop.ini
